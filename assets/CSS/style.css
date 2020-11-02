@@ -12,6 +12,11 @@ body {
     overflow: hidden;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 /* Header */
 
 header{
@@ -29,11 +34,7 @@ header a{
     font-size: 16px;
 }
 
-header ul{
-    margin: 0;
-    padding: 0;
 
-}
 
 header li {
     float: left;
@@ -41,8 +42,20 @@ header li {
     padding: 0 20px 0 20px;
 }
 
-/* Logo Sizes */
-
-.box{
-    
+header #branding{
+    float: left;
 }
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav{
+    float: right;
+}
+
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
