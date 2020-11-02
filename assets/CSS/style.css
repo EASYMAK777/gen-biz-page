@@ -18,4 +18,12 @@ header{
   background: #35424a;
   color: #ffff;
   padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+/* Logo Sizes */
+
+.box{
+    
 }
