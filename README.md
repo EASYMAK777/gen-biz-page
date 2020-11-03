@@ -6,8 +6,8 @@ This is a generic business template.  It uses only HTML and CSS.  Website is ful
 
 ### Screenshots
 
-<img src = "assets\img\acme-landing.PNG" alt="home" width="400px">
-<img src = "assets\img\acme-about.PNG" alt="home" width="400px">
-<img src = "assets\img\acme-services.PNG" alt="home" width="400px">
+<img src = "assets\img\acme-landing.PNG" alt="home" width="400px"><br>
+<img src = "assets\img\acme-about.PNG" alt="home" width="400px"><br>
+<img src = "assets\img\acme-services.PNG" alt="home" width="400px"><br>
 <img src = "assets\img\acme-responsive.PNG" alt="home" width="400px">
 
