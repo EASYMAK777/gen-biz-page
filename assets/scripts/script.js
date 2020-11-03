@@ -11,6 +11,9 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
+//   Reference contactInfo collections
+let contactInfo = firbase.database().ref("quoteInfo")
+
 
 // Listen form form submit
 
