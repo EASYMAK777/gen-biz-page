@@ -12,7 +12,7 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 //   Reference contactInfo collections
-let contactInfo = firbase.database().ref("quoteInfo")
+let contactInfo = firebase.database().ref("quoteInfo")
 
 
 // Listen form form submit
@@ -39,6 +39,20 @@ function submitForm(event){
     
 };
 
+// Function to save contact information to the firebase db
+
+
+function saveContactInfo(name, email, message){
+    // pushes data to db
+    let newContactInfo=contactInfo.push()
+    // pushes user input to database in object form
+    newContactInfo.set({
+        name:name,
+        email:email,
+        message:message,
+        phone:phone
+    })
+};
 
 
 
