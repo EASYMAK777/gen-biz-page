@@ -1,4 +1,6 @@
 // Listen form form submit
 
-document.getElementById('quoteForm').addEventListener;
+document.getElementById('quoteForm').addEventListener('submit', submitForm);
+
+
 
