@@ -17,6 +17,8 @@ function submitForm(event){
     let phone = document.getElementById('phone').value;
     let message = document.getElementById('message').value;
     console.log(name, phone, message, email );
+
+    saveContactInfo(name,phone,message,email);
     
 };
 
