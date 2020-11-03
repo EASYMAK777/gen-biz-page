@@ -195,6 +195,16 @@ footer{
     }
 }
 
+.button_2{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    margin-top: 10px;
+    padding-left: 20;
+    padding-right: 20;
+    color: #ffffff;
+}
+
 
 
 
