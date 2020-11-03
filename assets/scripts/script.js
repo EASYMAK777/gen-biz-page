@@ -36,13 +36,15 @@ function submitForm(event){
     console.log(name, phone, message, email );
 
     saveContactInfo(name,phone,message,email);
+
+    document.getElementById('quoteForm').reset();
     
 };
 
 // Function to save contact information to the firebase db
 
 
-function saveContactInfo(name, email, message){
+function saveContactInfo(name, email, message, phone){
     // pushes data to db
     let newContactInfo=contactInfo.push()
     // pushes user input to database in object form
@@ -50,7 +52,7 @@ function saveContactInfo(name, email, message){
         name:name,
         email:email,
         message:message,
-        phone:phone
+        phone:phone,
     })
 };
 
