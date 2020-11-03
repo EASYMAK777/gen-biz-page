@@ -1,3 +1,17 @@
+// Your web app's Firebase configuration
+var firebaseConfig = {
+    apiKey: "AIzaSyAPRBExURJI0AQjEJjM1r3-Z-5Fc6f8oPI",
+    authDomain: "gen-biz-page.firebaseapp.com",
+    databaseURL: "https://gen-biz-page.firebaseio.com",
+    projectId: "gen-biz-page",
+    storageBucket: "gen-biz-page.appspot.com",
+    messagingSenderId: "956031152234",
+    appId: "1:956031152234:web:a1ae164a683c7d308a1a13"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
 // Listen form form submit
 
 // Grabs an the quote form element and turns it into an even listener
