@@ -1,9 +1,13 @@
-# gen-biz-page
+# Gen-Biz-Page
 
-## This is a generic template that can be used for any business in need of a basic website.  
+This is a generic business template.  It uses only HTML and CSS.  Website is fully responsive.  Contact form uses NOSQL database named firebase by google.
 
-Website is 3 pages.  A landing, about and services page.  Website is fully responsive using only html, and css.  Javascript functionality for contact form using Google firebase live database for database management.  
+### [Github Pages Link] ( https://easymak777.github.io/gen-biz-page/ )
 
-Email subscription functionality coming soon.....
+### Screenshots
 
-![landing-page] (assets\img\acme-about.PNG)
+<img src = "assets\img\acme-landing.PNG" alt="home" width="400px">
+<img src = "assets\img\acme-about.PNG" alt="home" width="400px">
+<img src = "assets\img\acme-services.PNG" alt="home" width="400px">
+<img src = "assets\img\acme-responsive.PNG" alt="home" width="400px">
+
