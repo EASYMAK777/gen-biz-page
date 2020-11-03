@@ -13,13 +13,13 @@ function submitForm(event){
     
     // Get user input values
     let name = document.getElementById('name').value;
-    // let email = document.getElementById('email').value;
+    let email = document.getElementById('email').value;
     let phone = document.getElementById('phone').value;
     let message = document.getElementById('message').value;
-    console.log(name, phone, message );
+    console.log(name, phone, message, email );
     
 };
 
-// Function to get form values
+
 
 
