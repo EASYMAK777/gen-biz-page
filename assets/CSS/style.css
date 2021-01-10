@@ -12,6 +12,22 @@ body {
     overflow: hidden;
 }
 
+#button{
+     
+        background-color: blue; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+      }
+
+
 ul{
     margin: 0;
     padding: 0;
@@ -83,7 +99,7 @@ header a:hover{
 
 #showcase{
     min-height: 400px;
-    background: url("../img/showcase.jpg") no-repeat 0px -400px ;
+    background: url("../img/js-logo.png") no-repeat 0px -400px ;
     text-align: center;
     color: #ffff;
     min-width: 400px;
