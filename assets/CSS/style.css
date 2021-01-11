@@ -376,3 +376,7 @@ article#main-col {
     }
   }
 
+
+  #contact_text{
+      text-decoration: none;
+  }
