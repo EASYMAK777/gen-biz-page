@@ -80,8 +80,8 @@ header #branding{
 }
 
 header #branding h1 {
-    margin: 0;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: -45px;
 }
 
 header nav{
@@ -151,17 +151,21 @@ header a:hover{
 #boxes .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    
 }
 
 
 
 #boxes .box{
     float: left;
+
     text-align: center;
-    width: 30%;
+    width: 100%;
     padding:10px ;
   
 }
+
 
 #boxes .box img{
     width: 90px;
@@ -170,6 +174,10 @@ header a:hover{
 }
 
 /* Services */
+
+ul{
+    margin-top: 10px;
+}
 
 ul #services li {
     list-style: none;
@@ -180,11 +188,13 @@ ul #services li {
 
 }
 
+
+
 footer{
     padding:20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
+    background-color:  #35424a;
     text-align: center;
 
 }
