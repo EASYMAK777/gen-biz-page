@@ -41,7 +41,7 @@ header{
   color: #ffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #e8491d 3px solid;
+  border-bottom: red 3px solid;
 }
 
 header a{
@@ -65,6 +65,7 @@ header #branding{
 
 header #branding h1 {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 header nav{
@@ -76,17 +77,21 @@ header .highlight, header .current a {
     font-weight: bold;
 }
 
+
+
 header a:hover{
     color: #cccc;
     font-weight: bold;
 }
 
 #showcase{
-    min-height: 400px;
-    background: url("../img/showcase.jpg") no-repeat 0px -400px ;
+    display: flex;
+    width: 100%;
+    background: url("../img/junk-removal2-large.jpg") no-repeat 0 0;
     text-align: center;
     color: #ffff;
-    min-width: 400px;
+    /* margin-top: -50px; */
+  
 
 }
 
@@ -123,6 +128,13 @@ header a:hover{
 /* Boxes */
 #boxes{
     margin-top: 20px;
+    
+}
+
+
+#boxes .container{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -160,6 +172,29 @@ footer{
     text-align: center;
 
 }
+
+/* HEADER TITLE */
+
+#usa{
+    color:blue;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#removal{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#vanishing{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* //////////////////////////////// */
 
 /* Media Queries */
 @media(max-width: 768px){
@@ -229,5 +264,89 @@ article#main-col {
     width:65%;
 }
 
+/* Appointment Button */
 
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #submitButton {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgb(253, 3, 3) 0%, rgb(255, 255, 255), rgb(5, 22, 252) 100%) ;
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 20px;
+    }
+  
+    #submitbutton::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0, 4, 255, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .submitbutton:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  .submitbutton:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  .submitbutton::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  .submitbutton:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
 
