@@ -17,3 +17,5 @@ This is a generic business template.  It uses only HTML and CSS.  Website is ful
 <br>
 <img src = "assets\img\acme-responsive.PNG" alt="home" width="400px">
 
+# vanishing-removal-llc-basic
+# vanishing-removal-llc-basic
