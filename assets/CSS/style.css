@@ -103,7 +103,7 @@ header a:hover{
 #showcase{
     display: flex;
     width: 100%;
-    background: url("../img/junk-removal2-large.jpg") no-repeat 0 0;
+    background-color: #cccc;
     text-align: center;
     color: #ffff;
     /* margin-top: -50px; */
@@ -288,8 +288,23 @@ article#main-col {
     align-items: center;
     justify-content: center;
   }
+
+
+  #submitButton{
+
+
+        height: 38px;
+        background: #e8491d;
+        border: 0;
+        margin-top: 10px;
+        padding-left: 20;
+        padding-right: 20;
+        color: #ffffff;
+ 
+  }
+
   
-  #submitButton {
+  /* #submitButton {
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -309,9 +324,9 @@ article#main-col {
     position: relative;
     padding: 30px;
     margin-bottom: 20px;
-    }
+    } */
   
-    #submitbutton::before {
+    /* #submitbutton::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -324,18 +339,18 @@ article#main-col {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: all .3s ease-in-out 0s;
-  }
+  } */
   
-  .submitbutton:hover, .button:focus {
+  /* .submitbutton:hover, .button:focus {
     color: #313133;
     transform: translateY(-6px);
-  }
+  } */
   
-  .submitbutton:hover::before, button:focus::before {
+  /* .submitbutton:hover::before, button:focus::before {
     opacity: 1;
-  }
+  } */
   
-  .submitbutton::after {
+  /* .submitbutton::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -347,11 +362,11 @@ article#main-col {
     transform: translate(-50%, -50%);
     animation: ring 1.5s infinite;
   }
-  
-  .submitbutton:hover::after, button:focus::after {
+   */
+  /* .submitbutton:hover::after, button:focus::after {
     animation: none;
     display: none;
-  }
+  } */
   
   @keyframes ring {
     0% {
